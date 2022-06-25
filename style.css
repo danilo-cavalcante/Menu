@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Public Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style-type: none;
+}
+
+.cabecalho{
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    font-size: 15px;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo span { 
+    font-family: 'Public Sans';
+    font-size: 20px;
+    font-weight: 800;
+    align-content: center;
+    align-self: center;
+    padding: 5px;
+}
+
+.sobre {
+    background-color: #5BC241;
+    padding: 11px 7px;
+    color: white;
+}
+
+.cadastrar{
+    background-color: #5BC241;
+    padding: 10px 21px;
+    color: white;
+    border-radius: 10px;
+}
+
+.sobre:hover {
+    background-color: #1d640b;
+    padding: 11px 7px;
+    color: rgb(212, 208, 208);
+}
+
+.cadastrar:hover {
+    background-color: #1d640b;
+    padding: 10px 21px;
+    color: rgb(212, 208, 208);
+}
+
+@media(max-width: 480px){
+    *{
+        padding: 0;
+    }
+    .cabecalho {
+        font-size: 40px;
+    }
+    .item-menu{
+        font-size: 40px;
+    }
+    .logo {
+        display: flex;
+        width: 100%;
+        margin-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+         display: block;
+    }
+    .menu li {
+        margin-left: 0;
+        margin: 0px 30px 50px;
+    }
+    .menu a {
+        display: block;
+    }
+    .sobre {
+        padding: 17px 40px;
+        background-color:  #5BC241;
+    }
+    .cadastrar {
+        font-size: 18px;
+        padding: 15px 22px;
+        font-weight: 300;
+        background-color:  #5BC241;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    .logo span {
+        font-size: 40px;
+        align-self: center;
+
+    }
+}
+
+@media (min-width:481px) and (max-width:992px){
+    .cabecalho {
+        font-size: 40px;
+        display: block;
+    }
+    
+    .logo {
+        display: flex;
+        width: 100%;
+        margin-bottom: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .logo span {
+        font-size: 40px;
+        align-self: center;
+
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+}
