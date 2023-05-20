@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+.cabecalho{
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    font-size: 15px;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo span { 
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    align-content: center;
+    align-self: center;
+    padding: 5px;
+}
+
+.sobre {
+    background-color: #5BC241;
+    padding: 11px 7px;
+    color: white;
+}
+
+.cadastrar{
+    background-color: #5BC241;
+    padding: 10px 21px;
+    color: white;
+    border-radius: 10px;
+}
+
+.sobre:hover {
+    background-color: #1d640b;
+    /* padding: 11px 7px; */
+    color: rgb(212, 208, 208);
+}
+
+.cadastrar:hover {
+    background-color: #1d640b;
+    /* padding: 10px 21px; */
+    color: rgb(212, 208, 208);
+}
